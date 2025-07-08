@@ -59,6 +59,17 @@ body {
     justify-content: center;
 }
 
+.product-category {
+    display: flex;
+    justify-content: center;
+}
+
+.product-category div {
+    margin-top: 1rem;
+    border-top: .125rem solid black;
+    border-bottom: .125rem solid black;
+}
+
 /* Product Card */
 .product-card {
     flex: 0 0 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap */
